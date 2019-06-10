@@ -1,7 +1,7 @@
 let s:base00 = [ '#282936',  0 ] " black
 let s:base01 = [ '#3a3c4e', 18 ]
-let s:base02 = [ '#4d4f68', 19 ]
-let s:base03 = [ '#626483',  8 ]
+let s:base02 = [ '#626483', 19 ]
+let s:base03 = [ '#4d4f68',  8 ]
 let s:base04 = [ '#62d6e8', 20 ]
 let s:base05 = [ '#e9e9f4',  7 ]
 let s:base06 = [ '#f1f2f8', 21 ]
@@ -9,8 +9,8 @@ let s:base07 = [ '#f7f7fb', 15 ] " white
 
 let s:base08 = [ '#ea51b2',  1 ] " red
 let s:base09 = [ '#b45bcf', 16 ] " orange
-let s:base0A = [ '#00f769',  3 ] " yellow
-let s:base0B = [ '#ebff87',  2 ] " green
+let s:base0A = [ '#ebff87',  3 ] " yellow
+let s:base0B = [ '#00f769',  2 ] " green
 let s:base0C = [ '#a1efe4',  6 ] " teal
 let s:base0D = [ '#62d6e8',  4 ] " blue
 let s:base0E = [ '#b45bcf',  5 ] " pink
