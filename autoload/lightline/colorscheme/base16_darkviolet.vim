@@ -1,20 +1,20 @@
-let s:base00 = [ '#1c1e26',  0 ] " black
-let s:base01 = [ '#232530', 18 ]
-let s:base02 = [ '#2e303e', 19 ]
-let s:base03 = [ '#6f6f70',  8 ]
-let s:base04 = [ '#9da0a2', 20 ]
-let s:base05 = [ '#cbced0',  7 ]
-let s:base06 = [ '#dcdfe4', 21 ]
-let s:base07 = [ '#e3e6ee', 15 ] " white
+let s:base00 = [ '#000000',  0 ] " black
+let s:base01 = [ '#231a40', 18 ]
+let s:base02 = [ '#432d59', 19 ]
+let s:base03 = [ '#593380',  8 ]
+let s:base04 = [ '#00ff00', 20 ]
+let s:base05 = [ '#b08ae6',  7 ]
+let s:base06 = [ '#9045e6', 21 ]
+let s:base07 = [ '#a366ff', 15 ] " white
 
-let s:base08 = [ '#e93c58',  1 ] " red
-let s:base09 = [ '#e58d7d', 16 ] " orange
-let s:base0A = [ '#efb993',  3 ] " yellow
-let s:base0B = [ '#efaf8e',  2 ] " green
-let s:base0C = [ '#24a8b4',  6 ] " teal
-let s:base0D = [ '#df5273',  4 ] " blue
-let s:base0E = [ '#b072d1',  5 ] " pink
-let s:base0F = [ '#e4a382', 17 ] " brown
+let s:base08 = [ '#a82ee6',  1 ] " red
+let s:base09 = [ '#bb66cc', 16 ] " orange
+let s:base0A = [ '#f29df2',  3 ] " yellow
+let s:base0B = [ '#4595e6',  2 ] " green
+let s:base0C = [ '#40dfff',  6 ] " teal
+let s:base0D = [ '#4136d9',  4 ] " blue
+let s:base0E = [ '#7e5ce6',  5 ] " pink
+let s:base0F = [ '#a886bf', 17 ] " brown
 
 let s:p = {'normal': {}, 'inactive': {}, 'insert': {}, 'replace': {}, 'visual': {}, 'tabline': {}}
 
@@ -38,4 +38,4 @@ let s:p.tabline.middle  = [ [ s:base05, s:base01 ] ]
 let s:p.tabline.right   = [ [ s:base05, s:base02 ] ]
 let s:p.tabline.tabsel  = [ [ s:base02, s:base0A ] ]
 
-let g:lightline#colorscheme#base16_horizon_dark#palette = lightline#colorscheme#flatten(s:p)
+let g:lightline#colorscheme#base16_darkviolet#palette = lightline#colorscheme#flatten(s:p)

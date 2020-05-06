@@ -7,14 +7,14 @@ let s:base05 = [ '#e5e9f0',  7 ]
 let s:base06 = [ '#eceff4', 21 ]
 let s:base07 = [ '#8fbcbb', 15 ] " white
 
-let s:base08 = [ '#88c0d0',  1 ] " red
-let s:base09 = [ '#81a1c1', 16 ] " orange
-let s:base0A = [ '#5e81ac',  3 ] " yellow
-let s:base0B = [ '#bf616a',  2 ] " green
-let s:base0C = [ '#d08770',  6 ] " teal
-let s:base0D = [ '#ebcb8b',  4 ] " blue
-let s:base0E = [ '#a3be8c',  5 ] " pink
-let s:base0F = [ '#b48ead', 17 ] " brown
+let s:base08 = [ '#bf616a',  1 ] " red
+let s:base09 = [ '#d08770', 16 ] " orange
+let s:base0A = [ '#ebcb8b',  3 ] " yellow
+let s:base0B = [ '#a3be8c',  2 ] " green
+let s:base0C = [ '#88c0d0',  6 ] " teal
+let s:base0D = [ '#81a1c1',  4 ] " blue
+let s:base0E = [ '#b48ead',  5 ] " pink
+let s:base0F = [ '#5e81ac', 17 ] " brown
 
 let s:p = {'normal': {}, 'inactive': {}, 'insert': {}, 'replace': {}, 'visual': {}, 'tabline': {}}
 
