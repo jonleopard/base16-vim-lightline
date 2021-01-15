@@ -1,8 +1,8 @@
 let s:base00 = [ '#2a3b4d',  0 ] " black
-let s:base01 = [ '#2f4359', 18 ]
-let s:base02 = [ '#36506a', 19 ]
-let s:base03 = [ '#47698c',  8 ]
-let s:base04 = [ '#758ba2', 20 ]
+let s:base01 = [ '#3d566f', 18 ]
+let s:base02 = [ '#4b6988', 19 ]
+let s:base03 = [ '#55799c',  8 ]
+let s:base04 = [ '#7e90a3', 20 ]
 let s:base05 = [ '#9fa2a6',  7 ]
 let s:base06 = [ '#d6d7d9', 21 ]
 let s:base07 = [ '#ffffff', 15 ] " white

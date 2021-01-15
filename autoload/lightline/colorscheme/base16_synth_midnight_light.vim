@@ -1,11 +1,11 @@
-let s:base00 = [ '#050608',  0 ] " black
-let s:base01 = [ '#1a1b1c', 18 ]
-let s:base02 = [ '#28292a', 19 ]
-let s:base03 = [ '#474849',  8 ]
-let s:base04 = [ '#a3a5a6', 20 ]
-let s:base05 = [ '#c1c3c4',  7 ]
-let s:base06 = [ '#cfd1d2', 21 ]
-let s:base07 = [ '#dddfe0', 15 ] " white
+let s:base00 = [ '#dddfe0',  0 ] " black
+let s:base01 = [ '#cfd1d2', 18 ]
+let s:base02 = [ '#c1c3c4', 19 ]
+let s:base03 = [ '#a3a5a6',  8 ]
+let s:base04 = [ '#474849', 20 ]
+let s:base05 = [ '#28292a',  7 ]
+let s:base06 = [ '#1a1b1c', 21 ]
+let s:base07 = [ '#050608', 15 ] " white
 
 let s:base08 = [ '#b53b50',  1 ] " red
 let s:base09 = [ '#ea770d', 16 ] " orange
@@ -38,4 +38,4 @@ let s:p.tabline.middle  = [ [ s:base05, s:base01 ] ]
 let s:p.tabline.right   = [ [ s:base05, s:base02 ] ]
 let s:p.tabline.tabsel  = [ [ s:base02, s:base0A ] ]
 
-let g:lightline#colorscheme#base16_synth_midnight_dark#palette = lightline#colorscheme#flatten(s:p)
+let g:lightline#colorscheme#base16_synth_midnight_light#palette = lightline#colorscheme#flatten(s:p)
